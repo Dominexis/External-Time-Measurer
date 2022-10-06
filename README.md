@@ -1,5 +1,5 @@
 # External Time Measurer
-The External Time Measurer makes the lag manager in Dom's Nexus work with data packs that are not hooked into the Nexus framework. It works by having the Nexus be first enabled at the External Time Measurer be last enabled.
+The External Time Measurer makes the lag manager in Dom's Nexus work with data packs that are not hooked into the Nexus framework. It works by having the Nexus be first enabled and the External Time Measurer be last enabled.
 
 # Dom's Nexus
 This data pack is a module for Dom's Nexus. Find the Nexus and links to the official modules here: https://github.com/Dominexis/Doms-Nexus
