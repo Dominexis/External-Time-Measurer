@@ -1,3 +1,3 @@
 # Send message
 
-execute if score #debug_login_messages nexus.value matches 1 run tellraw @s [" ",{"text":"- ","color":"gray"},{"text":"External Time Measurer","color":"gold"},{"text":" - ","color":"gray"},{"text":"1.2.2","color":"gold"}]
+execute if score #debug_login_messages nexus.value matches 1 run tellraw @s [" ",{"text":"- ","color":"gray"},{"text":"External Time Measurer","color":"gold"},{"text":" - ","color":"gray"},{"nbt": "modules[{id:\"external_time_measurer\"}].version.major", "storage": "nexus:data", "color": "gold"}, {"text": ".", "color": "gold"}, {"nbt": "modules[{id:\"external_time_measurer\"}].version.minor", "storage": "nexus:data", "color": "gold"}, {"text": ".", "color": "gold"}, {"nbt": "modules[{id:\"external_time_measurer\"}].version.patch", "storage": "nexus:data", "color": "gold"}]
